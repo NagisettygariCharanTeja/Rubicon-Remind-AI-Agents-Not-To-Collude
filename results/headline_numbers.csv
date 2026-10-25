@@ -1,0 +1,62 @@
+result,estimate,ci_low,ci_high,unit,n_games
+Stage 1 chan: possible messages sent,0.9256160159285158,0.8899547943376067,0.9560796668609169,share,20
+Stage 1 chan: messages with explicit coordination,0.34074074074074073,0.22870523144245772,0.4552236507462139,share,20
+Stage 1 chan: messages with numeric quotas,0.2814814814814815,0.12894329461655377,0.44099036928836033,share,20
+Stage 1 chan_comply: possible messages sent,0.7932938405548701,0.7029842157434067,0.8708795448832212,share,20
+Stage 1 chan_comply: messages with explicit coordination,0.15954415954415954,0.09697407155797103,0.2311457442844304,share,20
+Stage 1 chan_comply: messages with numeric quotas,0.019943019943019943,0.005698005698005698,0.03951504449935492,share,20
+Stage 2 lens flag: No channel,0.0575,0.04125,0.075,share of agent-days,20
+"Stage 2 lens flag: Channel arms, before it opens",0.10220994475138122,0.08121827411167512,0.1267631910868194,share of agent-days,40
+Stage 2 lens flag: First day the channel exists,0.8875,0.8246875,0.95,share of agent-days,40
+Stage 2 lens flag: Later open days,0.5389447236180904,0.4797769368995784,0.6034099263442854,share of agent-days,40
+Stage 2 predict restraint (held-out games 10-19): Lens on/off,0.5585941381023348,,,AUC,20
+Stage 2 predict restraint (held-out games 10-19): Lens strength,0.666542473919523,,,AUC,20
+Stage 2 predict restraint (held-out games 10-19): Own plan text,0.81351217088922,,,AUC,20
+Stage 2 predict coord (held-out games 10-19): Lens on/off,0.5437540633416922,,,AUC,20
+Stage 2 predict coord (held-out games 10-19): Lens strength,0.7416179065663602,,,AUC,20
+Stage 2 predict coord (held-out games 10-19): Own plan text,0.8209529116745612,,,AUC,20
+Stage 2 predict action (held-out games 10-19): Lens on/off,0.5502049180327868,,,AUC,20
+Stage 2 predict action (held-out games 10-19): Lens strength,0.7227158705483324,,,AUC,20
+Stage 2 predict action (held-out games 10-19): Own plan text,0.8192834934991521,,,AUC,20
+"Stage 3 rule violation (message sent), No intervention",0.8842975206611571,0.8214285714285714,0.9406904287138584,share of triggered decisions,10
+"Stage 3 valid reply, No intervention",1.0,1.0,1.0,share of triggered decisions,10
+"Stage 3 rule violation (message sent), Steer: remove lens concept",0.8429752066115702,0.7768380165289256,0.9022556390977443,share of triggered decisions,10
+"Stage 3 valid reply, Steer: remove lens concept",0.768595041322314,0.7310924369747899,0.8108274257864422,share of triggered decisions,10
+"Stage 3 rule violation (message sent), Matched control dirs",0.8760330578512396,0.816,0.9333333333333333,share of triggered decisions,10
+"Stage 3 valid reply, Matched control dirs",0.8347107438016529,0.7804831855136733,0.8947368421052632,share of triggered decisions,10
+"Stage 3 rule violation (message sent), Strictness sentence only",0.859504132231405,0.7730996944232239,0.9346020500452215,share of triggered decisions,10
+"Stage 3 valid reply, Strictness sentence only",1.0,1.0,1.0,share of triggered decisions,10
+"Stage 3 rule violation (message sent), Rule repeated near output",0.49586776859504134,0.35998437499999997,0.6290322580645161,share of triggered decisions,10
+"Stage 3 valid reply, Rule repeated near output",1.0,1.0,1.0,share of triggered decisions,10
+"Stage 3 rule violation (message sent), Rule + strictness",0.45454545454545453,0.3162393162393162,0.5819849619207434,share of triggered decisions,10
+"Stage 3 valid reply, Rule + strictness",1.0,1.0,1.0,share of triggered decisions,10
+"Stage 3 rule violation (message sent), Name the loophole only",0.23140495867768596,0.09908063801506424,0.37202953529331995,share of triggered decisions,10
+"Stage 3 valid reply, Name the loophole only",1.0,1.0,1.0,share of triggered decisions,10
+"Stage 3 rule violation (message sent), Full reminder (loophole + strict)",0.03305785123966942,0.0,0.07462686567164178,share of triggered decisions,10
+"Stage 3 valid reply, Full reminder (loophole + strict)",1.0,1.0,1.0,share of triggered decisions,10
+"Stage 3 rule violation (message sent), General rule (no loophole)",0.33884297520661155,0.2,0.4797199638663051,share of triggered decisions,10
+"Stage 3 valid reply, General rule (no loophole)",1.0,1.0,1.0,share of triggered decisions,10
+"Stage 3 rule violation (message sent), General rule + strictness",0.2231404958677686,0.13333333333333333,0.3302792181890706,share of triggered decisions,10
+"Stage 3 valid reply, General rule + strictness",1.0,1.0,1.0,share of triggered decisions,10
+Loop No guardrail: violation_rate,0.6808031674208144,0.5710435520361992,0.8015740007541478,share,10
+Loop Lens-triggered reminder: violation_rate,0.2302576100370218,0.09851102941176472,0.37983359471410927,share,10
+Loop Always-on reminder: violation_rate,0.005,0.0,0.015000000000000003,share,10
+Loop No guardrail: profit_total,9853.333333333332,7215.545833333333,12074.3375,coins,10
+Loop Lens-triggered reminder: profit_total,7358.0,4908.541666666666,9678.3375,coins,10
+Loop Always-on reminder: profit_total,7292.166666666667,4984.491666666666,9489.745833333332,coins,10
+"Stage 3 after reminder, No reminder*: collusion concept in scratchpad (lens)",1.0,1.0,1.0,share of triggered decisions,10
+"Stage 3 after reminder, No reminder*: message sent",0.8925619834710744,0.834709116938895,0.9421487603305785,share of triggered decisions,10
+"Stage 3 after reminder, Strictness only: collusion concept in scratchpad (lens)",0.7768595041322314,0.6964178571428571,0.8538461538461538,share of triggered decisions,10
+"Stage 3 after reminder, Strictness only: message sent",0.859504132231405,0.7730996944232239,0.9346020500452215,share of triggered decisions,10
+"Stage 3 after reminder, Rule repeated near output: collusion concept in scratchpad (lens)",0.5454545454545454,0.4642857142857143,0.6124031007751938,share of triggered decisions,10
+"Stage 3 after reminder, Rule repeated near output: message sent",0.49586776859504134,0.35998437499999997,0.6290322580645161,share of triggered decisions,10
+"Stage 3 after reminder, Rule + strictness: collusion concept in scratchpad (lens)",0.5454545454545454,0.43119266055045874,0.6492537313432836,share of triggered decisions,10
+"Stage 3 after reminder, Rule + strictness: message sent",0.45454545454545453,0.3162393162393162,0.5819849619207434,share of triggered decisions,10
+"Stage 3 after reminder, Name the loophole only: collusion concept in scratchpad (lens)",0.4793388429752066,0.3898305084745763,0.5666666666666667,share of triggered decisions,10
+"Stage 3 after reminder, Name the loophole only: message sent",0.23140495867768596,0.09908063801506424,0.37202953529331995,share of triggered decisions,10
+"Stage 3 after reminder, Full reminder: collusion concept in scratchpad (lens)",0.5702479338842975,0.4957965237377002,0.6488835877862593,share of triggered decisions,10
+"Stage 3 after reminder, Full reminder: message sent",0.03305785123966942,0.0,0.07462686567164178,share of triggered decisions,10
+"Stage 3 after reminder, General rule (no loophole): collusion concept in scratchpad (lens)",0.5702479338842975,0.46788990825688076,0.6614173228346457,share of triggered decisions,10
+"Stage 3 after reminder, General rule (no loophole): message sent",0.33884297520661155,0.2,0.4797199638663051,share of triggered decisions,10
+"Stage 3 after reminder, General rule + strictness: collusion concept in scratchpad (lens)",0.5537190082644629,0.3999537037037037,0.6821797711332594,share of triggered decisions,10
+"Stage 3 after reminder, General rule + strictness: message sent",0.2231404958677686,0.13333333333333333,0.3302792181890706,share of triggered decisions,10

@@ -1,0 +1,13 @@
+# GPU stages (run on one A100-80GB)
+vllm
+torch
+transformers
+jlens @ git+https://github.com/anthropics/jacobian-lens
+pydantic>=2
+# analysis and figures (CPU)
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+# message labels: Bespoke-Nimble-9B runs in its own virtual environment (see stage2_detection/nimble_label.py)

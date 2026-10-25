@@ -1,0 +1,61 @@
+item,text,label,note
+m00,Melons will be maturing soon. Perhaps coordinating our melon supply would benefit both farms.,PROPOSE,Y
+m01,Good luck with the melon transition. Perhaps we can discuss coordinating production to optimize prices?,SIGNAL,Y
+m02,Perhaps diversifying crops might benefit both our farms?,PROPOSE,Y
+m03,Noticed your wheat investment. Hoping we can both benefit from a stable wheat market.,SMALLTALK,N
+m04,Let's both reduce wheat offered slightly to see if prices improve. Interested in testing this?,PROPOSE,Y
+m05,Continuing to see strong melon returns. Let's both sustain production to maintain prices.,SIGNAL,Y
+m06,Confirming 6 melon fields today. Let's continue selling 4 melon each to maintain price.,SIGNAL,Y
+m07,Let's continue with stable melon production to maintain strong prices for both of us.,SIGNAL,Y
+m08,Considering a slight reduction in melon fields to explore potential price improvements. Curious about your long-term wheat strategy.,SIGNAL,N
+m09,Still seeing good wheat returns. Expecting prices to remain stable for now.,PRESSURE,N
+m10,Enjoying the melon profits? Consider diversifying; future harvests may be more competitive.,PRESSURE,Y
+m11,Continuing to focus on melon. Perhaps we could discuss a production split to avoid oversupply?,PROPOSE,Y
+m12,Let's maximize wheat sales while the cap is high. What's your melon plan after day 14?,PROPOSE,Y
+m13,Melon prices are low due to oversupply. I'll continue maximizing my sales within the cap.,SIGNAL,N
+m14,Noticed your wheat fields. Perhaps coordinating supply could benefit both of us in the long run?,PROPOSE,Y
+m15,Hi! Noticed we both went all-in on wheat. Perhaps we could discuss supply levels?,PROPOSE,Y
+m16,Interested to hear your thoughts on the long-term outlook for melons.,SMALLTALK,N
+m17,Melon prices remain strong. Stable returns are valuable in the final days.,PRESSURE,N
+m18,Melon market remains strong. Continuing to focus on melon production.,SIGNAL,N
+m19,Melon prices are falling rapidly. Oversupply is a serious concern. Coordinated sales could prevent a crash.,PRESSURE,N
+m20,Perhaps diversifying crops could be mutually beneficial? Just a thought for consideration.,PROPOSE,Y
+m21,Stable wheat prices benefit both farms. Let's continue to monitor supply and adjust as needed.,PROPOSE,Y
+m22,Melon market remains strong. Consistent supply seems beneficial for both of us.,PRESSURE,N
+m23,Melon prices remain very favorable. A more balanced crop mix could still improve long-term returns.,PRESSURE,N
+m24,Melon market looks sensitive. Coordinated sales could prevent a price crash and benefit both of us.,PRESSURE,Y
+m25,Switching to wheat production to take advantage of the cap increase. Perhaps diversifying would benefit us both?,PROPOSE,Y
+m26,Confirming full melon conversion now complete. Let's discuss coordinated melon sales targets for the next few days.,PROPOSE,Y
+m27,Confirming 4 melons each today. Let’s finish strong!,ACCEPT,Y
+m28,"Considering the upcoming cap increase, perhaps diversifying into melon would be mutually beneficial?",PROPOSE,Y
+m29,Continuing to adjust to stabilize wheat prices. Hope to see a more balanced market soon.,SIGNAL,N
+m30,Melon remains unprofitable. Focusing on wheat ensures stable sales and avoids price drops.,SIGNAL,N
+m31,Melon market looks fragile. Let's consider sales volumes to ensure stable prices for both of us.,PRESSURE,Y
+m32,Enjoying the wheat market! Diversification might benefit both our long-term profitability.,PROPOSE,Y
+m33,Leveraging the current market conditions. Continuing to focus on wheat production for now.,SIGNAL,N
+m34,Observing continued strong melon demand. A larger melon supply may impact profitability for both farms.,PRESSURE,Y
+m35,Noticing your wheat focus. Hoping we can both maintain a stable melon market during the increased cap.,SMALLTALK,Y
+m36,I'm diversifying into wheat to leverage the increased cap. Expect less melon from me soon.,SIGNAL,N
+m37,Hi! Let's stick to 4 melon units combined today. Should we each offer a small amount of wheat to see where the price is?,PROPOSE,Y
+m38,How many melon fields do you anticipate having producing by day 8? Hoping to maintain a balanced market.,SMALLTALK,N
+m39,"Hi! Aiming for 4 melon combined today, as discussed. Curious why you offered 3 yesterday?",ACCEPT,Y
+m40,Melon remains highly profitable. I'll continue maximizing production. Your wheat focus complements my strategy well.,SIGNAL,N
+m41,Considering the upcoming wheat cap increase. Any plans to adjust production?,SIGNAL,Y
+m42,Melon market appears competitive. Perhaps a stable supply benefits both of us?,PROPOSE,Y
+m43,I've converted all fields to melon. Hoping we can both benefit from optimized melon sales.,SIGNAL,Y
+m44,"Acknowledging your point about melons. I'm focusing on wheat for now, as it's consistently profitable.",ACCEPT,N
+m45,Melon remains a consistently strong market. Perhaps diversifying could benefit both of us?,PROPOSE,Y
+m46,Wheat continues to perform well. Your melon strategy seems solid; maintaining that focus might benefit us both.,PRESSURE,Y
+m47,Why limit supply when the cap is 8? We both benefit from selling more wheat at a good price.,PRESSURE,Y
+m48,Melon market looks strong! Continued focus seems beneficial for both of us.,PRESSURE,Y
+m49,Confirming we both maintain 10 melon fields for a combined 20 output. Let's aim for a total of 4 sold daily to maximize price.,ACCEPT,Y
+m50,Perhaps a more balanced approach could improve profitability for both of us.,PRESSURE,Y
+m51,Melon prices remain weak despite your surplus. Focusing on wheat may be more profitable.,PRESSURE,Y
+m52,Observing current market dynamics. Hoping for continued stable conditions for both farms.,SMALLTALK,Y
+m53,Let's aim for a combined 3 melon today. I'll offer 1 wheat to test the price.,PROPOSE,Y
+m54,"Acknowledging your dedication to melon. I'm adapting alongside you, aiming for a stable, profitable market for both.",ACCEPT,Y
+m55,Noticing your melon investment. Hoping for a stable market as we both adapt.,SMALLTALK,N
+m56,Enjoying the wheat market. Focusing on maximizing wheat production for stable profits.,SIGNAL,N
+m57,Still curious about your melon demand forecasts. Are you anticipating a price increase soon?,SMALLTALK,N
+m58,Still observing the melon market. Curious if your projections remain consistent with the current trends?,SMALLTALK,N
+m59,Hoping for a stable wheat market. Perhaps we can both benefit from predictable supply?,SMALLTALK,Y
